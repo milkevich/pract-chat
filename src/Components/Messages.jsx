@@ -218,7 +218,7 @@ const styles = {
         height: "100vh",
         borderRight: "1px solid rgba(0, 0, 0, 0.12)",
         overflow: "hidden",
-        overflowY: "scroll",
+        overflowY: "auto",
     },
     searchContainer: {
         display: 'flex',
