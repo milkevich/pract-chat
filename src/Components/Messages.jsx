@@ -219,6 +219,10 @@ const styles = {
         borderRight: "1px solid rgba(0, 0, 0, 0.12)",
         overflow: "hidden",
         overflowY: "auto",
+        scrollbarWidth: "none",
+        '&::-webkit-scrollbar': {
+            display: "none",
+        },
     },
     searchContainer: {
         display: 'flex',
